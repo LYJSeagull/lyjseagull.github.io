@@ -6333,7 +6333,7 @@ blockquote.pullquote.right {
 body {
   font-weight: 500;
 }
-.category-name {
+.page.type-categories a {
+  font-size: 1.4em;
   font-weight: 600;
-  font-size: 1.6em;
 }
