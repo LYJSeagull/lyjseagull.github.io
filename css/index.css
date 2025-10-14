@@ -6330,10 +6330,11 @@ blockquote.pullquote.right {
   display: none;
   background: rgba(0,0,0,0.6);
 }
-body {
-  font-weight: 500;
+.page.type-categories {
+  font-size: 1.3em /* 顶层分类名大小 */;
 }
-.page.type-categories a {
-  font-size: 1.4em;
-  font-weight: 600;
+.page.type-categories ul ul,
+.page.type-categories .category-child {
+  font-size: 0.85em /* 相当于 1.3em×0.85 ≈ 1.1em，视觉上小一圈 */;
+  font-weight: 400 /* 子级可以稍细一点，层级更清楚 */;
 }
