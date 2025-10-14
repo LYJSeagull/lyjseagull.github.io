@@ -6330,3 +6330,10 @@ blockquote.pullquote.right {
   display: none;
   background: rgba(0,0,0,0.6);
 }
+body {
+  font-weight: 500;
+}
+.category-name {
+  font-weight: 600;
+  font-size: 1.1em;
+}
